@@ -1,0 +1,16 @@
+model_list:
+  - model_name: gemini-1.5-flash-latest
+    litellm_params:
+      model: gemini/gemini-1.5-flash-latest
+      api_key: os.environ/GEMINI_API_KEY
+      rpm: 15
+  - model_name: gemini-1.5-pro-latest
+    litellm_params:
+      model: gemini/gemini-1.5-pro-latest
+      api_key: os.environ/GEMINI_API_KEY
+      rpm: 2
+  - model_name: Gemini Experimental 1121
+    litellm_params:
+      model: gemini/gemini-exp-1121
+      api_key: os.environ/GEMINI_API_KEY
+      rpm: 2
